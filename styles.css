@@ -1,0 +1,146 @@
+.body{
+    width: 1440px;
+    background-color: #fff;
+    color: black;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo-wrapper{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-wrapper img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.logo-wrapper {
+    text-decoration: none;
+   
+    
+
+}
+.logo-sides-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo-sides-wrapper img{
+    width: 24px;
+    height: 24px;
+}
+.logo-sides-wrapper h3{
+    border:4px solid #F55800;
+    padding: 4px;
+}
+.content {
+
+    width: 1003.13px;
+height: 769.27px;
+top: -135px;
+left: 1744.68px;
+padding: 0px 1.32px 0.79px 0px;
+gap: 0px;
+opacity: 0px;
+
+
+    
+}
+.para-img-wrapper {
+    display: flex;
+    
+
+}
+.para-img-wrapper img{
+    position: absolute;
+    overflow: hidden;
+    left: 920px;
+    height: 769px;
+
+}
+.paragraphs{
+    padding-top: 120px;
+    
+    
+}
+
+.paragraphs h1{
+    font-size: 72px ;
+    color: #F55800;
+    line-height: 81.5px;
+}
+.paragraphs h2{
+    font-size: 2rem;
+    color: #F55800;
+}
+.paragraphs p{
+    width: 600px;
+    padding: 4px;
+    border: 4px solid #F55800;
+}
+
+.social-icon-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    width: 17.99px;
+    height: 20px;
+    top: 351px;
+    left: 36px;
+    opacity: 0px;
+
+}
+.social-icons{
+    height: 24px;
+    width: 24px;
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.mobile-menu nav h4 {
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.time{
+
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.time h2{
+font-size: 1rem;
+}
+
